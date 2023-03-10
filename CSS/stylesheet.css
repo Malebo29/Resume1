@@ -1,0 +1,95 @@
+body {
+    background-color: #eee;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-weight: 100;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   a{
+       color: #fff;
+   }
+
+   nav ul {
+    color: #fea680;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+aside {
+    width: 153px;
+    padding: 10px;
+    background-color: #304145;
+    color: #fea680;
+    float: left;
+}
+
+.AmandaHeadshot {
+    border-radius: 8px;
+    width: 153px;
+    height: 102px;
+  }
+
+header, h1 {
+background-color: #9BC5C9;
+font-family: Verdana, Serif, Arial, Helvetica;
+font-size: 30px;
+color: #000;
+text-align: center;
+margin: 0;
+padding: 5px;
+}
+
+main {
+    padding: 10px;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    background-color: #BAC7CE;
+    float: right;
+}
+
+#education {
+    font-size: 20px;
+    color: #304145;
+}
+
+#experience {
+    font-size: 20px;
+    color: #304145;
+}
+
+#skills {
+    font-size: 20px;
+    color: #304145;
+}
+
+main, p {
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 13px;
+    color: #000;
+}
+
+main, h3 {
+    color: #fff;
+}
+
+main, ul {
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 13px;
+    color: #000;
+}
+
+  #contact details {
+    background-color: #BEC496;
+    color: #304145;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #9BC5C9;
+    padding: 10px;
+    margin: 0;
+    clear: both;
+  }
