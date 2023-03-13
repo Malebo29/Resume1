@@ -1,5 +1,6 @@
 body {
     background-color: #eee;
+    border: 3px solid #304145;
     font-family: Verdana, Serif, Arial, Helvetica;
     font-weight: 100;
     width: 800px;
@@ -22,6 +23,7 @@ aside {
     padding: 10px;
     background-color: #304145;
     color: #fea680;
+    margin: 5px;
     float: left;
 }
 
@@ -47,7 +49,7 @@ padding: 5px;
 }
 
 main {
-    padding: 10px;
+    padding: 30px;
     font-family: Verdana, Serif, Arial, Helvetica;
     background-color: #BAC7CE;
     float: right;
@@ -56,6 +58,7 @@ main {
 #education {
     font-size: 20px;
     color: #304145;
+    margin-top: 10px;
 }
 
 #experience {
@@ -71,17 +74,19 @@ main {
 main, p {
     font-family: Verdana, Serif, Arial, Helvetica;
     font-size: 13px;
-    color: #000;
+    color: #1B1212;
+    margin: 10px;
 }
 
 main, h3 {
-    color: #fff;
+    color: #1B1212;
+    margin: 5px;
 }
 
 main, ul {
     font-family: Verdana, Serif, Arial, Helvetica;
     font-size: 13px;
-    color: #000;
+    color: #1B1212;
 }
 
   #contact details {
@@ -94,7 +99,7 @@ main, ul {
 
   footer {
     background-color: #9BC5C9;
-    padding: 10px;
+    padding: 20px;
     margin: 0;
     clear: both;
   }
