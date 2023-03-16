@@ -25,6 +25,11 @@
     position: relative;
 }
 
+#name {
+    padding-left: 100px;
+    text-align: center;
+}
+
 #amandaHeadshot {
     width: 200px; 
     height: 160px;
@@ -38,13 +43,11 @@
 
 #careerDetails {
     padding: 5px;
-    background-color: #fff;
+    background-color: #304145;
     width: 765px;
     min-height: 15px;
-    color: #304145;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
+    font-size: 15px;
+    text-align: right;
     margin: 5px;
     position : relative;
     left : 235px;
@@ -95,4 +98,5 @@
 
 a{
     color: #fff;
+    text-decoration: none;
 }
