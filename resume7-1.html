@@ -90,7 +90,7 @@
 
     <div>
         <label for="fname">Name and Surname:</label>
-        <input type="text" id="fname" name="fname" placeholder="Malebo Legodi" required>
+        <input type="text" id="fname" name="fname" placeholder="Malebo Legodi">
     </div>
     
     <div>
@@ -98,12 +98,14 @@
          <input type="email" id="email" name="email" placeholder="Email Address" required>
     </div>    
      
-    <div>
+    <div id="checks">
         <label for="_subject">Purpose of the email:</label>
-        <label for="Interview">Invitation for Interview</label>
+
         <input type="radio" id="Interview" name="_subject" value="Invitation for Interview" required>
-        <label for="Documents">Request supporting Documents</label>
+        <label for="Interview">Invitation for Interview</label>
+        
         <input type="radio" id="Documents" name="_subject" value="Request supporting Documents" required>
+        <label for="Documents">Request supporting Documents</label>
     </div>
         
     <div>
@@ -112,7 +114,7 @@
     </div>
              
     <div>
-        <button type="submit">Send</button>
+        <button type="submit" id="submit">Send</button>
     </div>
         
     </form>
