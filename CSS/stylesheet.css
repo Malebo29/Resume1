@@ -89,11 +89,13 @@
     padding-left: 10px;
 }
 
-#date {
+#contactMe {
     position: absolute;
-    color: #304145;
+    background-color: #9BC5C9;
+    height: 300px;
+    padding-left: 10px;
+    position: relative;
     clear: both;
-    margin-top: 645px;
 }
 
 a{
