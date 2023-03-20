@@ -40,22 +40,16 @@
     <h2>Experience</h2>
     <article>
         <h3>Job 1</h3>
-            <ul>
-                <li>A sentence about the responsibilities of the job</li>
-                <li>A sentence about the responsibilities of the job</li>
-                <li>A sentence about the responsibilities of the job</li>
-                <li>A sentence about the responsibilities of the job</li>
-            </ul>
+        <P>
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas, magnam hic libero, asperiores voluptate ad veritatis exercitationem ab sunt voluptas repudiandae quibusdam distinctio velit unde, provident deleniti dignissimos! Labore esse voluptatum dolore inventore aliquam enim fugiat ratione quisquam mollitia blanditiis, obcaecati voluptatem quaerat. Nostrum, ut!
+        </P>
     </article>
 
     <article>
         <h3>Job 2</h3>
-            <ul>
-                <li>A sentence about the responsibilities of the job</li>
-                <li>A sentence about the responsibilities of the job</li>
-                <li>A sentence about the responsibilities of the job</li>
-                <li>A sentence about the responsibilities of the job</li>
-            </ul>
+        <P>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quas mollitia minima animi nulla dolores nemo aspernatur ut eaque debitis, esse quaerat, sit sed laborum provident a? Impedit placeat consequuntur dolores, quia ex exercitationem eius alias eaque laboriosam debitis laborum deserunt vero!
+        </P>
     </article>  
 </section>   
    
@@ -91,7 +85,37 @@
 </main>
 
 <footer id="date">
-    &copy; Malebo Legodi
+    <h3>Get in Touch with Me:</h3>
+    <form action="https://formsubmit.co/shwabilegodi@gmail.com" method="POST">
+
+    <div>
+        <label for="fname">Name and Surname:</label>
+        <input type="text" id="fname" name="fname" placeholder="Malebo Legodi" required>
+    </div>
+    
+    <div>
+        <label for="email">Email:</label>
+         <input type="email" id="email" name="user_mail" placeholder=you@email.com required>
+    </div>    
+     
+    <div>
+        <label for="subject">Purpose of the email:</label>
+        <label for="Interview">Invitation for Interview</label>
+        <input type="radio" id="Interview" name="subject" value="Invitation for Interview">
+        <label for="Documents">Request supporting Documents</label>
+        <input type="radio" id="Documents" name="subject" value="Request supporting Documents">
+    </div>
+        
+    <div>
+          <label for="msg">Message:</label>
+          <textarea name="user_message" id="msg" cols="30" rows="10" placeholder="Message here please (optional)..."></textarea>
+    </div>
+             
+    <div>
+        <button type="submit">Send</button>
+    </div>
+        
+    </form>
 </footer>        
 
 </body>
