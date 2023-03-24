@@ -245,72 +245,127 @@ footer {
 *
 */
 
-#container {
+/* 
+*
+*The below code is disbaled to be replaced with the Form for Resume7-1.html 
 
-    display: flex;
-    flex-direction: column;
-    background-color: #eee;
-    border: 3px solid #304145;
-    font-family: Verdana, Serif, Arial, Helvetica;
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#container>* {
-    padding: 5px;
-    flex: 1 100%;
-    border-radius: 3px;
-}
-
-#heading {
-    background-color: #9BC5C9;
-    color: #000;
-    text-align: center;
-    font-size: 20px;
-    height: 120px;
-    position: relative;
-}
-
-#name {
-    padding-left: 100px;
-    text-align: center;
-}
-
-#amandaHeadshot {
-    width: 200px;
-    height: 160px;
-    border-radius: 3px;
-    background-color: #9BC5C9;
-    border: 3px solid #fff;
+#date {
     position: absolute;
-    left: 20px;
-    top: 50px;
-}
-
-#careerDetails {
-    padding: 5px;
-    background-color: #304145;
-    width: 765px;
-    min-height: 15px;
-    font-size: 15px;
-    text-align: right;
-    margin: 5px;
-    position: relative;
-    left: 235px;
-}
-
-#aboutMe {
-    padding: 15px;
-    background-color: #BAC7CE;
     color: #304145;
-    font-size: 15px;
-    margin-bottom: 10px;
+    clear: both;
+    margin-top: 645px;
 }
+*
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Serif, Arial, Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header section starts here */
+
+.navbar {
+    height: 100px;
+    text-transform: uppercase;
+    position: relative;
+    margin: auto;
+    width: 70%;
+}
+
+.navbar .logo {
+    float: left;
+    display: inline;
+    line-height: 100px;
+    color: #000;
+    font-size: 16px;
+
+}
+
+.navbar .menu {
+    float: right;
+    line-height: 100px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.navbar .menu a {
+    margin: 0 25px;
+}
+
+.navbar .menu:hover {
+    border-bottom: 2px solid #000;
+}
+
+/* Hero image style area */
+#hero-image {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url('./images/MaleboBigScreen.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    position: absolute;
+    top: 45%;
+    width: 50%;
+    color: #fff;
+    margin-left: 500px;
+}
+
+.hero-text h1 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 65px;
+    padding-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.hero-text .btn-hire {
+    color: #000;
+    padding: 10px 30px;
+    background: #eee;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    margin-top: 20px;
+}
+
+.hero-text .btn-hire:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Resume content starts */
 
 #information {
+    display: flex;
     background-color: #BAC7CE;
     justify-content: space-between;
+    margin-top: 540px;
+    max-width: 100%;
+    height: auto;
 }
 
 #content {
@@ -319,6 +374,7 @@ footer {
     min-height: 550px;
     color: #304145;
     margin: 10px;
+    line-height: 20px;
     float: right;
 }
 
@@ -335,21 +391,9 @@ footer {
 #skills,
 #hobbies {
     margin: 5px;
-    padding-left: 10px;
-}
+    padding: 10px 20px;
 
-/* 
-*
-*The below code is disbaled to be replaced with the Form for Resume7-1.html 
-
-#date {
-    position: absolute;
-    color: #304145;
-    clear: both;
-    margin-top: 645px;
 }
-*
-*/
 
 #back2Top {
     display: none;
