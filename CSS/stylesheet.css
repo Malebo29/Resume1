@@ -270,6 +270,11 @@ body {
 
 a {
     text-decoration: none;
+    list-style: none;
+    background-color: #304145;
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 3px;
 }
 
 /* Header section starts here */
@@ -311,7 +316,7 @@ a {
 #hero-image {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url('./images/MaleboBigScreen.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0, 0.5), rgba(0,0,0,0, 0.5)) url('./images/MaleboBigScreen.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -369,16 +374,25 @@ a {
 }
 
 #content {
+    order: 2;
     width: 75%;
     padding: 10px;
     min-height: 550px;
     color: #304145;
     margin: 10px;
-    line-height: 20px;
     float: right;
 }
 
+#content h3 {
+    padding: 20px 10px;
+}
+
+#experience{
+    margin-top: 20px;
+}
+
 #sidebar {
+    order: 1;
     width: 20%;
     min-height: 645px;
     background-color: #304145;
@@ -390,10 +404,15 @@ a {
 #contact,
 #skills,
 #hobbies {
+    line-height: 30px;
     margin: 5px;
-    padding: 10px 20px;
-
+    padding: 10px 10px;
 }
+
+#sidebar ul{
+    list-style-type: none;
+}
+
 
 #back2Top {
     display: none;
@@ -473,12 +492,4 @@ input[type="radio"]+label {
     padding: 5px;
     color: #fff;
     cursor: pointer;
-}
-
-a {
-    background-color: #304145;
-    color: #fff;
-    padding: 0.2rem;
-    border-radius: 3px;
-    text-decoration: none;
 }
