@@ -10,30 +10,43 @@
 <body id="container">
 
     <header id="heading">
-        <div id="name">
-            <h1>Amanda Jacobs</h1>
-            <p>eLearning and Instructional Designer</p>
+    <!-- hero section start here -->.
+    <div class="hero-container">
+        <!-- Navigation bar starts here -->
+        <div class="navbar">
+            <div class="logo">
+                <h1>Selaki</h1>
+            </div>
+            <div class="menu">
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#contactMe">Contact</a>
+            </div>
         </div>
-        <div id="amandaHeadshot">
-            <p><img src="C:\Users\Selaki\Desktop\codespace-projects\Intro-to-Web-(2023)\MALLEG088_PTO2301_GroupD_MaleboLegodi_PF1\my-digital-resume\Resume1\Images\AmandaJacobs.jpeg"
-                    alt="Headshot of Amanda Jacobs" width="173" height="122"></p>
+        <!-- Navigation bar ends here -->
+        <!-- Hero image starts here -->
+        <div id="hero-image">
+            <source srcset="./images/MaleboFace.jpg" media="(max-width: 495px)">
+            <source srcset="./images/MaleboFaceSholders.jpg" media="(max-width: 951px)">
+            <img src="./images/MaleboBigScreen.jpg" alt="Malebo Legodi">
+            <!-- Hero text -->
+            <div class="hero-text">
+                <h1>eLearning and Instructional Designer</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab consequatur cum dignissimos
+                    architecto quas dolores quos. Dolore consequatur totam magni eveniet suscipit hic, dolores ipsam
+                    fugiat
+                    autem, nostrum cum ratione incidunt asperiores possimus praesentium minus libero!
+                </p>
+                <!-- The hire me button -->
+                <a href="#" class="btn-hire">Hire Me</a>
+            </div>
         </div>
-    </header>
-
-    <nav id="careerDetails">
-        <a href="https://www.linkedin.com/in/malebo-legodi-597bb8114" target="_blank">Click here to view my Career
-            Profile on LinkedIn!</a>
-    </nav>
-
-    <aside id="aboutMe">
-        <h4>Personal statement</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui. Ut lectus arcu bibendum at varius vel
-            pharetra vel turpis. Cursus vitae congue mauris rhoncus aenean.</p>
+        <!-- hero section start here -->.
 
         <main id="information">
             <section id="content">
-                <h2>Education</h2>
+                <h2 id="education">Education</h2>
                 <article>
                     <h3>Intro to Web at <a href="https://www.codespace.co.za/" target="_blank">CodeSpace Academy</a>
                     </h3>
@@ -49,7 +62,7 @@
                         morbi tincidunt ornare massa eget egestas. Sed blandit libero volutpat sed cras ornare arcu.</p>
                 </article>
 
-                <h2>Experience</h2>
+                <h2 id="experience">Experience</h2>
                 <article>
                     <h3>Job 1</h3>
                     <P>
@@ -77,6 +90,7 @@
                 <div id="contact">
                     <h3>Contact Details</h3>
                     <p>Email: A.Jacobz@gmail.com</p>
+                    <P>Skype: username@skype.com</P>
                     <p>Phone: 1234567890</p>
                 </div>
 
