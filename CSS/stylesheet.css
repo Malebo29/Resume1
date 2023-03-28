@@ -510,7 +510,7 @@ body {
     align-items: center;
     background-color: #304145;
     color: #fff;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .navbar .logo {
@@ -537,8 +537,6 @@ body {
     border-bottom: 2px solid white;
 }
 
-/* the new toggle bar for responsive navigation bar end here*/
-
 /* Hero image style area */
 #hero-image {
     max-width: 100%;
@@ -546,7 +544,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80%;
     display: flex;
 }
 
@@ -576,7 +573,7 @@ body {
 }
 
 .hero-text .des {
-    Margin: 39px;
+    Margin: 39px 0;
     display: block;
     font-size: 32px;
     text-shadow: 0 0 10px black;
@@ -612,7 +609,7 @@ body {
 }
 
 #content {
-    flex: 3;
+    flex-basis: 75%;
     order: 2;
     padding: 10px;
     min-height: 550px;
@@ -629,7 +626,7 @@ body {
 }
 
 #sidebar {
-    flex: 1;
+    flex-basis: 25%;
     order: 1;
     background-color: #304145;
     color: #fff;
@@ -646,6 +643,8 @@ body {
 #sidebar ul {
     list-style-type: none;
 }
+
+
 
 /* Styling for the Form element in the footer section of Resume7-1.html starts here */
 
@@ -734,10 +733,11 @@ footer {
 	text-align: center;
 	color: #fff;
 	background-color: #304145;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 #back2Top {
+    flex-basis: 20%;
     background-color: #fff;
     border-radius: 5px;
     padding: 5px;
@@ -747,4 +747,31 @@ footer {
 
 #back2Top:hover {
     background-color: rgba(255,255,255, 0.2);
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu a {
+        width: 100%;
+        margin: 10px
+    }
+
+    .hero-text {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .form-container .my-form .input-field-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-container .my-form .input-field-box label {
+        margin-bottom: 5px;
+    }
 }
